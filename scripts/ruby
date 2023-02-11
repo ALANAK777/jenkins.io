@@ -2,7 +2,7 @@
 
 if [ -n "${USE_LOCAL_RUBY}" ]; then
     if [ "$1" = "pull" ]; then
-        exit 0
+        exit1=0
     fi
 
     exec $@
